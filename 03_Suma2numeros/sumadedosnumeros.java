@@ -25,7 +25,6 @@ public static void main(String[] args){
         int num1, num2;
         int resultado;
 
-        do{
             System.out.println("introduce el primer numero a sumar: ");
 
             num1 = entrada.nextInt();
@@ -34,7 +33,6 @@ public static void main(String[] args){
     
             resultado = num1 + num2;
 
-        }while(num1 !=0);    
 
         System.out.println("el resultado de la suma es: " + resultado);
 
