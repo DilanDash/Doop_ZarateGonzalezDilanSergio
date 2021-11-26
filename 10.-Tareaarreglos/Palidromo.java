@@ -17,7 +17,7 @@ public class palidromo{
     public static void main(String[] args){
         palabra = palabra.toLowerCase();
 
-        for (int i = 0; j = palabra.length() -i; i = j; i++, j--){
+        for (int i = 0; j = palabra.length() -i; j++){
             if (palabra.chartAt(i) != palabra.chartAt(j)){
                 return false;
 
