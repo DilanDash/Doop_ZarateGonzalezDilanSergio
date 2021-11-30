@@ -68,8 +68,8 @@ public class Biblioteca{
 
     public void Prestamo(){
         
-        Libro drama = new Libro("Osito Carpintero");
-        Libro Accion =new Libro("Avengers")
+        Int Libro drama = new Libro("Osito Carpintero");
+        Int Libro Accion =new Libro("Avengers")
     }
 
     public void Devolucion(){
